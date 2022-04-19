@@ -39,6 +39,24 @@ h1 {
   margin-right: auto;
   background-color: white;
   padding: 30px;
+
+animation: contenedor 8s ease infinite;
+   
+}
+
+@keyframes contenedor {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: lightblue;
+  }
+  75% {
+    background-color:white;
+  }
+  100% {
+    background-color:red;
+  }
 }
 
 .search {
